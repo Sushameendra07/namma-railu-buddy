@@ -1,0 +1,601 @@
+{
+  "stations": {
+    "SBC": {
+      "trains": {
+        "SBC_T01": {
+          "name": "Kaveri Express",
+          "platform": "1",
+          "delay": "On Time",
+          "destination": "MAQ",
+          "eta": "06:15",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,A1,PC,SLR",
+          "statusMessage": "Boarding on Platform 1",
+          "lastVerified": "2026-05-12T08:05:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "SBC_T02": {
+          "name": "Gol Gumbaz Express",
+          "platform": "4",
+          "delay": "25 min",
+          "destination": "DWR",
+          "eta": "07:10",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,B2,SLR",
+          "statusMessage": "Platform reassigned after late rake movement",
+          "lastVerified": "2026-05-12T09:45:00Z",
+          "crowdDensity": "High"
+        },
+        "SBC_T03": {
+          "name": "Brindavan Express",
+          "platform": "6",
+          "delay": "On Time",
+          "destination": "MYS",
+          "eta": "08:05",
+          "coachPosition": "ENG,SLR,GS,S1,S2,B1,A1,PC,SLR",
+          "statusMessage": "Ready for departure",
+          "lastVerified": "2026-05-12T08:08:00Z",
+          "crowdDensity": "Low"
+        },
+        "SBC_T04": {
+          "name": "Rani Chennamma",
+          "platform": "3",
+          "delay": "12 min",
+          "destination": "UBL",
+          "eta": "09:25",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,B2,A1,SLR",
+          "statusMessage": "Delayed at previous block section",
+          "lastVerified": "2026-05-12T08:09:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "SBC_T05": {
+          "name": "Shatabdi Express",
+          "platform": "2",
+          "delay": "On Time",
+          "destination": "YPR",
+          "eta": "10:00",
+          "coachPosition": "ENG,GS,C1,C2,C3,E1,PC,SLR",
+          "statusMessage": "Coach display synced",
+          "lastVerified": "2026-05-12T08:10:00Z",
+          "crowdDensity": "Moderate"
+        }
+      },
+      "latitude": 12.9783,
+      "longitude": 77.5693
+    },
+    "YPR": {
+      "trains": {
+        "YPR_T01": {
+          "name": "Udyan Express",
+          "platform": "1",
+          "delay": "8 min",
+          "destination": "DWR",
+          "eta": "06:45",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,B2,A1,SLR",
+          "statusMessage": "Platform updated from crowd ping",
+          "lastVerified": "2026-05-12T08:11:00Z",
+          "crowdDensity": "High"
+        },
+        "YPR_T02": {
+          "name": "Basava Express",
+          "platform": "5",
+          "delay": "On Time",
+          "destination": "UBL",
+          "eta": "07:35",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,A1,SLR",
+          "statusMessage": "On-time departure expected",
+          "lastVerified": "2026-05-12T08:12:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "YPR_T03": {
+          "name": "Jan Shatabdi",
+          "platform": "7",
+          "delay": "On Time",
+          "destination": "MYS",
+          "eta": "08:20",
+          "coachPosition": "ENG,SLR,GS,D1,D2,D3,C1,C2,SLR",
+          "statusMessage": "Arrival at scheduled minute",
+          "lastVerified": "2026-05-12T08:13:00Z",
+          "crowdDensity": "Low"
+        },
+        "YPR_T04": {
+          "name": "Sampige Intercity",
+          "platform": "4",
+          "delay": "15 min",
+          "destination": "SBC",
+          "eta": "09:05",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,PC,SLR",
+          "statusMessage": "Crew change in progress",
+          "lastVerified": "2026-05-12T08:14:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "YPR_T05": {
+          "name": "Coastal Link",
+          "platform": "6",
+          "delay": "On Time",
+          "destination": "MAQ",
+          "eta": "10:30",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,B2,A1,SLR",
+          "statusMessage": "Platform confirmed by control",
+          "lastVerified": "2026-05-12T08:15:00Z",
+          "crowdDensity": "Moderate"
+        }
+      },
+      "latitude": 13.0236,
+      "longitude": 77.5497
+    },
+    "MYS": {
+      "trains": {
+        "MYS_T01": {
+          "name": "Chamundi Express",
+          "platform": "2",
+          "delay": "On Time",
+          "destination": "SBC",
+          "eta": "06:05",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,A1,SLR",
+          "statusMessage": "First boarding call announced",
+          "lastVerified": "2026-05-12T08:16:00Z",
+          "crowdDensity": "Low"
+        },
+        "MYS_T02": {
+          "name": "Tipu Express",
+          "platform": "1",
+          "delay": "4 min",
+          "destination": "YPR",
+          "eta": "07:25",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,A1,PC,SLR",
+          "statusMessage": "Minor delay at crossing",
+          "lastVerified": "2026-05-12T08:17:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "MYS_T03": {
+          "name": "Mysuru Dharwad Fast",
+          "platform": "4",
+          "delay": "On Time",
+          "destination": "DWR",
+          "eta": "08:40",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,B2,SLR",
+          "statusMessage": "Ready at outer signal",
+          "lastVerified": "2026-05-12T08:18:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "MYS_T04": {
+          "name": "Karnataka Link",
+          "platform": "3",
+          "delay": "10 min",
+          "destination": "UBL",
+          "eta": "09:50",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,B2,A1,SLR",
+          "statusMessage": "Expected shortly on Platform 3",
+          "lastVerified": "2026-05-12T08:19:00Z",
+          "crowdDensity": "High"
+        },
+        "MYS_T05": {
+          "name": "Netravati Connector",
+          "platform": "5",
+          "delay": "On Time",
+          "destination": "MAQ",
+          "eta": "11:00",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,A1,PC,SLR",
+          "statusMessage": "Coach sequence verified",
+          "lastVerified": "2026-05-12T08:20:00Z",
+          "crowdDensity": "Moderate"
+        }
+      },
+      "latitude": 12.3072,
+      "longitude": 76.6497
+    },
+    "DVG": {
+      "trains": {
+        "DVG_T01": {
+          "name": "DVG City Express",
+          "platform": "1",
+          "delay": "On Time",
+          "destination": "SBC",
+          "eta": "06:35",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,SLR",
+          "statusMessage": "Running right time",
+          "lastVerified": "2026-05-12T08:21:00Z",
+          "crowdDensity": "Low"
+        },
+        "DVG_T02": {
+          "name": "Harapanahalli Passenger",
+          "platform": "2",
+          "delay": "18 min",
+          "destination": "DWR",
+          "eta": "07:55",
+          "coachPosition": "ENG,SLR,GS,S1,S2,SLR",
+          "statusMessage": "Late arrival from previous station",
+          "lastVerified": "2026-05-12T08:22:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "DVG_T03": {
+          "name": "Tungabhadra Superfast",
+          "platform": "3",
+          "delay": "On Time",
+          "destination": "UBL",
+          "eta": "08:45",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,B2,SLR",
+          "statusMessage": "Platform hold complete",
+          "lastVerified": "2026-05-12T08:23:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "DVG_T04": {
+          "name": "Malenadu Intercity",
+          "platform": "4",
+          "delay": "6 min",
+          "destination": "YPR",
+          "eta": "09:30",
+          "coachPosition": "ENG,SLR,GS,S1,S2,B1,A1,SLR",
+          "statusMessage": "Approaching station limits",
+          "lastVerified": "2026-05-12T08:24:00Z",
+          "crowdDensity": "High"
+        },
+        "DVG_T05": {
+          "name": "Coastal Breeze",
+          "platform": "5",
+          "delay": "On Time",
+          "destination": "MAQ",
+          "eta": "10:50",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,B2,A1,PC,SLR",
+          "statusMessage": "On-time run confirmed",
+          "lastVerified": "2026-05-12T08:25:00Z",
+          "crowdDensity": "Moderate"
+        }
+      },
+      "latitude": 14.4663,
+      "longitude": 75.9238
+    },
+    "UBL": {
+      "trains": {
+        "UBL_T01": {
+          "name": "Hubballi Mail",
+          "platform": "1",
+          "delay": "On Time",
+          "destination": "SBC",
+          "eta": "06:20",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,A1,SLR",
+          "statusMessage": "Departure board synced",
+          "lastVerified": "2026-05-12T08:26:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "UBL_T02": {
+          "name": "Rani Chennamma Return",
+          "platform": "3",
+          "delay": "14 min",
+          "destination": "MYS",
+          "eta": "07:45",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,B2,SLR",
+          "statusMessage": "Delayed due to rake movement",
+          "lastVerified": "2026-05-12T08:27:00Z",
+          "crowdDensity": "High"
+        },
+        "UBL_T03": {
+          "name": "Dharwad DEMU",
+          "platform": "2",
+          "delay": "On Time",
+          "destination": "DWR",
+          "eta": "08:10",
+          "coachPosition": "ENG,SLR,GS,D1,D2,D3,SLR",
+          "statusMessage": "Suburban service on time",
+          "lastVerified": "2026-05-12T08:28:00Z",
+          "crowdDensity": "Low"
+        },
+        "UBL_T04": {
+          "name": "Konkan Link",
+          "platform": "5",
+          "delay": "On Time",
+          "destination": "MAQ",
+          "eta": "09:15",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,A1,PC,SLR",
+          "statusMessage": "Route clear till MAQ",
+          "lastVerified": "2026-05-12T08:29:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "UBL_T05": {
+          "name": "Yesvantpur Superfast",
+          "platform": "6",
+          "delay": "7 min",
+          "destination": "YPR",
+          "eta": "10:35",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,B2,A1,SLR",
+          "statusMessage": "Awaiting platform release",
+          "lastVerified": "2026-05-12T08:30:00Z",
+          "crowdDensity": "Moderate"
+        }
+      },
+      "latitude": 15.3647,
+      "longitude": 75.124
+    },
+    "MAQ": {
+      "trains": {
+        "MAQ_T01": {
+          "name": "Netravati Express",
+          "platform": "1",
+          "delay": "On Time",
+          "destination": "SBC",
+          "eta": "06:50",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,B2,A1,PC,SLR",
+          "statusMessage": "Coastal section clear",
+          "lastVerified": "2026-05-12T08:31:00Z",
+          "crowdDensity": "High"
+        },
+        "MAQ_T02": {
+          "name": "Mangaluru Intercity",
+          "platform": "2",
+          "delay": "11 min",
+          "destination": "YPR",
+          "eta": "07:40",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,A1,SLR",
+          "statusMessage": "Inbound train delayed",
+          "lastVerified": "2026-05-12T08:32:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "MAQ_T03": {
+          "name": "Karavali Fast",
+          "platform": "4",
+          "delay": "On Time",
+          "destination": "MYS",
+          "eta": "08:55",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,B2,SLR",
+          "statusMessage": "Signal received for departure",
+          "lastVerified": "2026-05-12T08:33:00Z",
+          "crowdDensity": "Low"
+        },
+        "MAQ_T04": {
+          "name": "Coast Dharwad Express",
+          "platform": "3",
+          "delay": "On Time",
+          "destination": "DWR",
+          "eta": "09:40",
+          "coachPosition": "ENG,SLR,GS,S1,S2,B1,A1,PC,SLR",
+          "statusMessage": "Platform announced",
+          "lastVerified": "2026-05-12T08:34:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "MAQ_T05": {
+          "name": "Hubballi Coastal",
+          "platform": "5",
+          "delay": "9 min",
+          "destination": "UBL",
+          "eta": "10:25",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,B2,A1,SLR",
+          "statusMessage": "Delayed at crossing point",
+          "lastVerified": "2026-05-12T08:35:00Z",
+          "crowdDensity": "Moderate"
+        }
+      },
+      "latitude": 12.9141,
+      "longitude": 74.8559
+    },
+    "DWR": {
+      "trains": {
+        "DWR_T01": {
+          "name": "Dharwad Bengaluru SF",
+          "platform": "1",
+          "delay": "On Time",
+          "destination": "SBC",
+          "eta": "06:10",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,B2,A1,SLR",
+          "statusMessage": "Originating service boarding",
+          "lastVerified": "2026-05-12T08:36:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "DWR_T02": {
+          "name": "Dharwad Yesvantpur",
+          "platform": "2",
+          "delay": "13 min",
+          "destination": "YPR",
+          "eta": "07:20",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,A1,SLR",
+          "statusMessage": "Late incoming rake",
+          "lastVerified": "2026-05-12T08:37:00Z",
+          "crowdDensity": "High"
+        },
+        "DWR_T03": {
+          "name": "Dharwad Mysuru Link",
+          "platform": "3",
+          "delay": "On Time",
+          "destination": "MYS",
+          "eta": "08:30",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,B1,B2,PC,SLR",
+          "statusMessage": "Coach composition locked",
+          "lastVerified": "2026-05-12T08:38:00Z",
+          "crowdDensity": "Low"
+        },
+        "DWR_T04": {
+          "name": "Dharwad Coastal",
+          "platform": "4",
+          "delay": "On Time",
+          "destination": "MAQ",
+          "eta": "09:35",
+          "coachPosition": "ENG,SLR,GS,S1,S2,S3,S4,B1,A1,SLR",
+          "statusMessage": "Expected on scheduled platform",
+          "lastVerified": "2026-05-12T08:39:00Z",
+          "crowdDensity": "Moderate"
+        },
+        "DWR_T05": {
+          "name": "Dharwad Hubballi MEMU",
+          "platform": "5",
+          "delay": "5 min",
+          "destination": "UBL",
+          "eta": "10:15",
+          "coachPosition": "ENG,SLR,GS,D1,D2,D3,SLR",
+          "statusMessage": "Short hold before departure",
+          "lastVerified": "2026-05-12T08:40:00Z",
+          "crowdDensity": "Moderate"
+        }
+      },
+      "latitude": 15.4589,
+      "longitude": 75.0078
+    },
+    "ZZZ": {
+      "latitude": 11.0,
+      "longitude": 76.0,
+      "trains": {}
+    }
+  },
+  "platformPings": {
+    "SBC_SBC_T01": {
+      "latestPlatform": "1",
+      "count": 14
+    },
+    "SBC_SBC_T02": {
+      "latestPlatform": "5",
+      "count": 21,
+      "stationId": "SBC",
+      "trainId": "SBC_T02",
+      "lastUpdated": 1715507100000,
+      "lastUserId": "day5DemoSession"
+    },
+    "SBC_SBC_T03": {
+      "latestPlatform": "6",
+      "count": 11
+    },
+    "SBC_SBC_T04": {
+      "latestPlatform": "3",
+      "count": 7
+    },
+    "SBC_SBC_T05": {
+      "latestPlatform": "2",
+      "count": 10
+    },
+    "YPR_YPR_T01": {
+      "latestPlatform": "1",
+      "count": 8
+    },
+    "YPR_YPR_T02": {
+      "latestPlatform": "5",
+      "count": 6
+    },
+    "YPR_YPR_T03": {
+      "latestPlatform": "7",
+      "count": 12
+    },
+    "YPR_YPR_T04": {
+      "latestPlatform": "4",
+      "count": 5
+    },
+    "YPR_YPR_T05": {
+      "latestPlatform": "6",
+      "count": 9
+    },
+    "MYS_MYS_T01": {
+      "latestPlatform": "2",
+      "count": 13
+    },
+    "MYS_MYS_T02": {
+      "latestPlatform": "1",
+      "count": 7
+    },
+    "MYS_MYS_T03": {
+      "latestPlatform": "4",
+      "count": 6
+    },
+    "MYS_MYS_T04": {
+      "latestPlatform": "3",
+      "count": 5
+    },
+    "MYS_MYS_T05": {
+      "latestPlatform": "5",
+      "count": 8
+    },
+    "DVG_DVG_T01": {
+      "latestPlatform": "1",
+      "count": 4
+    },
+    "DVG_DVG_T02": {
+      "latestPlatform": "2",
+      "count": 6
+    },
+    "DVG_DVG_T03": {
+      "latestPlatform": "3",
+      "count": 7
+    },
+    "DVG_DVG_T04": {
+      "latestPlatform": "4",
+      "count": 5
+    },
+    "DVG_DVG_T05": {
+      "latestPlatform": "5",
+      "count": 6
+    },
+    "UBL_UBL_T01": {
+      "latestPlatform": "1",
+      "count": 11
+    },
+    "UBL_UBL_T02": {
+      "latestPlatform": "3",
+      "count": 9
+    },
+    "UBL_UBL_T03": {
+      "latestPlatform": "2",
+      "count": 4
+    },
+    "UBL_UBL_T04": {
+      "latestPlatform": "5",
+      "count": 8
+    },
+    "UBL_UBL_T05": {
+      "latestPlatform": "6",
+      "count": 7
+    },
+    "MAQ_MAQ_T01": {
+      "latestPlatform": "1",
+      "count": 10
+    },
+    "MAQ_MAQ_T02": {
+      "latestPlatform": "2",
+      "count": 8
+    },
+    "MAQ_MAQ_T03": {
+      "latestPlatform": "4",
+      "count": 5
+    },
+    "MAQ_MAQ_T04": {
+      "latestPlatform": "3",
+      "count": 7
+    },
+    "MAQ_MAQ_T05": {
+      "latestPlatform": "5",
+      "count": 6
+    },
+    "DWR_DWR_T01": {
+      "latestPlatform": "1",
+      "count": 9
+    },
+    "DWR_DWR_T02": {
+      "latestPlatform": "2",
+      "count": 7
+    },
+    "DWR_DWR_T03": {
+      "latestPlatform": "3",
+      "count": 5
+    },
+    "DWR_DWR_T04": {
+      "latestPlatform": "4",
+      "count": 6
+    },
+    "DWR_DWR_T05": {
+      "latestPlatform": "5",
+      "count": 4
+    }
+  },
+  "alarmSessions": {
+    "demoUser": {
+      "SBC_T03_1715502000000": {
+        "trainId": "SBC_T03",
+        "destinationStationId": "MYS",
+        "triggerKm": 5,
+        "state": "active",
+        "createdAt": 1715502000000
+      },
+      "SBC_T02_1715507400000": {
+        "trainId": "SBC_T02",
+        "sourceStationId": "SBC",
+        "destinationStationId": "MYS",
+        "triggerKm": 3.0,
+        "state": "triggered",
+        "createdAt": 1715507400000
+      }
+    }
+  }
+}

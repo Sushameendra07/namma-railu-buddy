@@ -1,0 +1,64 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+!.idea/codeStyles/
+!.idea/runConfigurations.xml
+!.idea/inspectionProfiles/
+!.idea/scopes/
+!.idea/dictionaries/
+!.idea/shelf/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetDropDown.xml
+/.idea/gradle.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+
+# Gradle
+.gradle/
+build/
+**/build/
+!src/**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration (machine-specific)
+local.properties
+*.keystore
+!debug.keystore
+
+# Firebase & secrets (never commit real config)
+google-services.json
+**/google-services.json
+secrets.properties
+.env
+
+# Google Maps / API keys (if stored locally)
+maps_api_key.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Kotlin
+.kotlin/
+
+# NDK
+obj/
+
+# Android Profiling
+*.hprof
