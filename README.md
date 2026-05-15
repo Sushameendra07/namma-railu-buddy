@@ -94,7 +94,7 @@ Detailed flows: [docs/APP_FLOW.md](docs/APP_FLOW.md) · Architecture notes: [doc
 
 | Login | Home | Trains | Alerts |
 |-------|------|--------|--------|
-| *Add `01-login.png`* | https://github.com/Sushameendra07/namma-railu-buddy/blob/03a182fe676c4353f4e7b0aec7c4bd5cb09b527d/WhatsApp%20Image%202026-05-15%20at%209.09.57%20PM.jpeg| *Add `05-trains.png`* | *Add `06-alerts.png`* |
+| *Add `01-login.png`* | https://github.com/Sushameendra07/namma-railu-buddy/blob/03a182fe676c4353f4e7b0aec7c4bd5cb09b527d/WhatsApp%20Image%202026-05-15%20at%209.09.57%20PM.jpeg| https://github.com/Sushameendra07/namma-railu-buddy/blob/8399cfe22ed571cf40df2be2e4620d3fe068a7ac/WhatsApp%20Image%202026-05-15%20at%209.09.58%20PM.jpeg| *Add `06-alerts.png`* |
 
 **Demo:** See [DAY5_DEMO_SCRIPT.md](DAY5_DEMO_SCRIPT.md) for a 3–5 minute presentation script.
 
